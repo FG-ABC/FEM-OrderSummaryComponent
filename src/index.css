@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    }
+
+body{
+    background-color: hsl(225, 100%, 92%);
+}
+
+h1{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    text-shadow: 1px 0 #000000;
+}
+
+h3{
+    color: hsl(223, 47%, 23%);
+}
+
+h4{
+    color: hsl(245, 75%, 52%);
+}
+
+p{
+    color:hsl(224, 23%, 55%);
+}
+
+#Card{
+    width: 330px;
+    background-color: white ;
+}
+
+#Price{
+    background-color: hsl(225, 100%, 98%);
+}
+
+#Payment{
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+}
+
+#Logo{
+    background-color:hsl(225, 100%, 94%);
+}
+
+#Cancel{
+    color: hsl(224, 23%, 55%);;
+}
+
+
+@media screen and (min-width: 640px) {
+    #Card {
+      max-width: 480px;
+    }
+  }
